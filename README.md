@@ -158,7 +158,10 @@ int lunghezza(string s)
         return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9');
     }
 
-    //Funzione .IsAWhiteSpace di una stringa // ✓ FUNZIONA ✓ //
+```
+> Questo metodo è utilizzato per sostituire il "**Char.IsLetterOrNumeber()**", utilizzato per controllare se è presente una lettere o un numero.
+
+```
     bool eunospazzio(char c)
     {
         if (c == ' ' || c == '\t' || c == '\n' || c == '\r')
@@ -170,5 +173,5 @@ int lunghezza(string s)
             return false;
         }
     }
-```
-> Questo metodo è utilizzato per sostituire il "**Char.IsLetterOrNumeber()**", utilizzato per controllare se nella stringa è presente una lettere o un numero.
+``` 
+> Questo metodo è utilizzato per sostituire il "**Char.IsAWhiteSpace()**", utilizzato per controllare il carattere è uno spazzio.
